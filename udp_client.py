@@ -1,7 +1,6 @@
 import socket
 import random
 from Crypto.Util import number
-from sympy import mod_inverse
 
 def geraNumeroPrimo():
     p = number.getPrime(4096)
